@@ -27,6 +27,9 @@ Code was structure in the following way under the package `com.application.custo
  **How to run it locally**
 
 mvn spring-boot:run -Dspring.profiles.active=dev
+username:user|password:password
+localhost:8080/swagger-ui.html
+http://localhost:8080/secure/customer/{custId}
 
 **Testing**
 
